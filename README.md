@@ -1,3 +1,8 @@
+:sunglasses: Мой [профиль](https://freelancehunt.com/freelancer/Chippsi.html) на freelancehunt
+
+:moneybag: Реализованные [проекты](https://freelancehunt.com/freelancer/Chippsi.html#portfolio) на freelancehunt
+
+
 ## Проекты по верстке
 
 :star: [МКРостов (MKR)](https://chippsi.ru/MKR/) - компания "МК-Ростов" занимается реализацией строительной продукции
