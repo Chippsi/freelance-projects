@@ -1,0 +1,6 @@
+<svg width="328" height="352" viewBox="0 0 328 352" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<mask id="Mask234">
+		<path d="M153.247 6.85719L13.2467 96.1326C7.48678 99.8055 4 106.164 4 112.996V239.004C4 245.836 7.48678 252.194 13.2467 255.867L153.247 345.143C159.806 349.325 168.194 349.325 174.753 345.143L314.753 255.867C320.513 252.194 324 245.836 324 239.004V112.996C324 106.164 320.513 99.8055 314.753 96.1325L174.753 6.85719C168.194 2.67473 159.806 2.67473 153.247 6.85719Z" fill="#fff" />
+	</mask>
+	<image preserveAspectRatio="xMidYMid slice" x="0" y="0" id="statsImg" xlink:href="img/stats/s1.jpg" height="100%" width="100%" mask="url(#Mask234)" />
+</svg>

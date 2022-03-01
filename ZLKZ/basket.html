@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Корзина</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- <meta name="robots" content="noindex, nofollow">-->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper basketPage">
+      <header class="header _lp">
+        <div class="header__container _container">
+          <div class="header__logo-box"><a class="header__logo" href="#">
+                <svg>
+                  <use xlink:href="./img/sprites/sprite-mono.svg#logo"></use>
+                </svg></a></div>
+          <div class="header__menu-box">
+            <div class="menu-contacts header__contacts" data-da=".menu__body-wrp,991,last">
+              <ul class="menu-contacts__list">
+                <li class="menu-contacts__item"><a class="menu-contacts__link" href="#">
+                      <svg class="menu-contacts__link-svg_geo">
+                        <use xlink:href="./img/sprites/sprite-mono.svg#geo"></use>
+                      </svg>г. Сергиев Посад, Московское шоссе, д. 22А</a></li>
+                <li class="menu-contacts__item"><a class="menu-contacts__link" href="tel:+74959736598">
+                      <svg class="menu-contacts__link-svg_tel">
+                        <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                      </svg>+7 (495) 973-65-98</a></li>
+                <li class="menu-contacts__item"><a class="menu-contacts__link" href="#">
+                      <svg class="menu-contacts__link-svg_time">
+                        <use xlink:href="./img/sprites/sprite-mono.svg#time"></use>
+                      </svg>Пн-Пт: 9:00 - 18:00</a></li>
+                <li class="menu-contacts__item"><a class="menu-contacts__link" href="mailto:info@zlkz.ru">
+                      <svg class="menu-contacts__link-svg_email">
+                        <use xlink:href="./img/sprites/sprite-mono.svg#email"></use>
+                      </svg>info@zlkz.ru</a></li>
+              </ul>
+              <div class="menu-contacts__social"><a class="menu-contacts__social-link" href="#" target="_blank">
+                    <svg class="menu-contacts__social-svg_yt">
+                      <use xlink:href="./img/sprites/sprite-mono.svg#yt"></use>
+                    </svg></a><a class="menu-contacts__social-link" href="#" target="_blank">
+                    <svg class="menu-contacts__social-svg_inst">
+                      <use xlink:href="./img/sprites/sprite-mono.svg#inst"></use>
+                    </svg></a><a class="menu-contacts__social-link" href="#" target="_blank">
+                    <svg class="menu-contacts__social-svg_wapp">
+                      <use xlink:href="./img/sprites/sprite-mono.svg#wapp"></use>
+                    </svg></a>
+              </div>
+            </div>
+            <div class="menu header__menu">
+              <div class="menu__icon icon-menu"><span></span><span></span><span></span></div>
+              <nav class="menu__body">
+                <div class="menu__body-wrp">
+                  <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="#">О КОМПАНИИ</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">ПРОДУКЦИЯ</a>
+                      <div class="menu__sub-box">
+                        <ul class="menu__sub-list">
+                          <li class="menu__sub-item"><a class="menu__sub-link">Акриловые краски</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Огнезащитные покрытия</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Антивандальные материалы</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Разбавители</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Бытовая химия</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Растворители</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Грунтовки</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Смолы</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Грунт-эмали</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Смывки</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Лаки</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Химическое сырье</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Лаки полуфабрикатные</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Шпатлевки</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">ЛКМ со специальными свойствами</a></li>
+                          <li class="menu__sub-item"><a class="menu__sub-link">Эмали</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">КОНТРАКТНОЕ ПРОИЗВОДСТВО</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">ГДЕ КУПИТЬ</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">КЛИЕНТЫ</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">НОВОСТИ</a>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">КОНТАКТЫ</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="menu__top-line"></div>
+            </div>
+          </div>
+          <div class="controllers header__controllers-box">
+            <div class="controllers__top-line">
+              <div class="controllers__callback btn" role="button" tabindex="0">Заказать звонок</div>
+              <div class="controllers__cart" data-da=".header__fixed-connection, 1190, last" role="button" tabindex="0">
+                  <svg>
+                    <use xlink:href="./img/sprites/sprite-mono.svg#cart"></use>
+                  </svg><span class="controllers__cart-count">15</span>
+              </div>
+            </div>
+            <div class="controllers__bottom-line">
+              <div class="controllers__search" data-da=".header__fixed-connection, 1190, first">
+                <div class="controllers__inp-row">
+                  <div class="form__inp-wrp">
+                    <input class="input" id="search" autocomplete="off" type="text" name="form[]" data-value="Поиск">
+                    <label for="search"></label>
+                  </div>
+                </div>
+                <div class="controllers__search-btn btn" role="button" tabindex="0">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#search"></use>
+                    </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__fixed-connection _lp"><a class="header__tel" href="tel:+74959736598">
+                <svg>
+                  <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                </svg></a><a class="header__wapp" href="https://wa.me/7XXXXXXXXXX" target="_blank">
+                <svg>
+                  <use xlink:href="./img/sprites/sprite-mono.svg#wapp"></use>
+                </svg></a></div>
+          <div class="header__mobile-contacts">
+            <div class="menu-contacts header__contacts">
+              <ul class="menu-contacts__list">
+                <li class="menu-contacts__item"><a class="menu-contacts__link" href="tel:+74959736598">
+                      <svg class="menu-contacts__link-svg_tel">
+                        <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                      </svg>+7 (495) 973-65-98</a></li>
+                <li class="menu-contacts__item"><a class="menu-contacts__link" href="mailto:info@zlkz.ru">
+                      <svg class="menu-contacts__link-svg_email">
+                        <use xlink:href="./img/sprites/sprite-mono.svg#email"></use>
+                      </svg>info@zlkz.ru</a></li>
+                <li class="menu-contacts__item"><a class="menu-contacts__link" href="#">
+                      <svg class="menu-contacts__link-svg_geo">
+                        <use xlink:href="./img/sprites/sprite-mono.svg#geo"></use>
+                      </svg>г. Сергиев Посад, Московское шоссе, д. 22А</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="heroAll" style="background: url('./img/basket/cbg.jpg') center / cover no-repeat;">
+          <div class="heroAll__container _container">
+            <div class="heroAll__content">
+              <h1 class="heroAll__title t1">Корзина</h1>
+            </div>
+          </div>
+        </section>
+        <section class="basket">
+          <div class="basket__container _container">
+            <div class="basket__content">
+              <div class="basket__title t3">корзина</div>
+              <div class="basket__art">заказ №1622-7298-85768</div>
+              <div class="basket__search">
+                <div class="basket__inp-row">
+                  <input class="input" autocomplete="off" type="text" name="form[]" data-value="Быстрое добавление товара: введите наименование или номер товара">
+                  <div class="basket__inpPlaceHolder">Быстрое добавление товара: введите наименование или номер товара</div>
+                </div>
+                <div class="basket__search-btn btn" role="button" tabindex="0">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#search"></use>
+                    </svg>
+                </div>
+              </div>
+              <div class="basket__checkAll form__inp-box basket__checkAll--agree">
+                <input class="form__input-cbox" id="all" type="checkbox" name="all" checked>
+                <label for="all"><span class="check-icon"></span>Выделить все товары</label>
+              </div>
+              <div class="basketSideGrid">
+                <div class="basketSideGrid__body">
+                  <div class="basketGrid basket__basketGrid">
+                    <div class="basketGrid__header">
+                      <div class="basketGrid__col basketGrid__col--name name">Наименование</div>
+                      <div class="basketGrid__col basketGrid__col--count count">Количество</div>
+                      <div class="basketGrid__col basketGrid__col--delete delete"> <span>Удалить товар</span></div>
+                    </div>
+                    <div class="basketGrid__body">
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b0" id="b0" checked>
+                            <label for="b0"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунтовка ЭП–0199 ТТ</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b1" id="b1" checked>
+                            <label for="b1"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунт-эмаль ХВ-0278</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b2" id="b2" checked>
+                            <label for="b2"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Спирт изопропиловый</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b3" id="b3" checked>
+                            <label for="b3"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b2.webp"><img src="./img/basket/b2.png" alt="b2">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунтовка ЭП–0199 ТТ</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b4" id="b4" checked>
+                            <label for="b4"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунт-эмаль ХВ-0278</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b5" id="b5" checked>
+                            <label for="b5"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунт-эмаль ХВ-0278</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b6" id="b6" checked>
+                            <label for="b6"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунт-эмаль ХВ-0278</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b7" id="b7" checked>
+                            <label for="b7"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунт-эмаль ХВ-0278</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__itemBox">
+                        <div class="basketGrid__col basketGrid__col--name">
+                          <div class="basketGrid__chkBox form__inp-box basketGrid__chkBox--agree">
+                            <input class="form__input-cbox" type="checkbox" name="b8" id="b8" checked>
+                            <label for="b8"><span class="check-icon"></span></label>
+                          </div>
+                          <div class="basketGrid__itemWrp">
+                            <div class="basketGrid__imgBox">
+                                <picture>
+                                  <source type="image/webp" srcset="./img/basket/b1.webp"><img src="./img/basket/b1.png" alt="b1">
+                                </picture>
+                            </div>
+                            <div class="basketGrid__itemName">Грунт-эмаль ХВ-0278</div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--count">
+                          <div class="basketGrid__qtty quantity">
+                            <div class="basketGrid__qttyMinus quantity__button quantity__button_minus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#minus"></use>
+                                </svg>
+                            </div>
+                            <div class="basketGrid__qttyInputBox quantity__input">
+                              <input autocomplete="off" type="text" name="form[]" value="1">
+                            </div>
+                            <div class="basketGrid__qttyPlus quantity__button quantity__button_plus">
+                                <svg>
+                                  <use xlink:href="./img/sprites/sprite-mono.svg#plus"></use>
+                                </svg>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="basketGrid__col basketGrid__col--delete">
+                          <div class="basketGrid__delBtn" role="button" tabindex="0"></div>
+                        </div>
+                      </div>
+                      <div class="basketGrid__upBtn" role="button" tabindex="0">Обновить корзину</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="basketSideGrid__side _side-wrapper" data-sticky-container>
+                  <div class="basketInfo _side-block" data-margin-top="170">
+                    <div class="basketInfo__header">ваш заказ</div>
+                    <div class="basketInfo__body"> 
+                      <div class="basketInfo__art">№ 1622-7298-85768</div>
+                      <div class="basketInfo__count">Выбрано товаров: <span class='basketInfo__countData'>13457 шт.</span></div>
+                      <!--._weight Вес заказа: <span class='basketInfo__weightData'>1.95 т</span>--><a class="basketInfo__btn btn" href="#">Оформить заказ</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container _container">
+          <div class="footer__content t6">
+            <div class="footer__logo-box"><a class="footer__logo-link" href="#">
+                  <svg>
+                    <use xlink:href="./img/sprites/sprite-mono.svg#logo"></use>
+                  </svg></a></div>
+            <ul class="footer__contacts-list">
+              <li class="footer__list-item"><a class="footer__list-link" href="#">
+                    <svg class="footer__icon footer__icon--geo">
+                      <use xlink:href="./img/sprites/sprite-mono.svg#geo"></use>
+                    </svg>г. Сергиев Посад, Московское шоссе, д. 22А</a></li>
+              <li class="footer__list-item"><a class="footer__list-link" href="tel:+74959736598">
+                    <svg class="footer__icon footer__icon--tel">
+                      <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                    </svg>+7 (495) 973-65-98</a></li>
+              <li class="footer__list-item"><a class="footer__list-link" href="mailto:info@zlkz.ru">
+                    <svg class="footer__icon footer__icon--email">
+                      <use xlink:href="./img/sprites/sprite-mono.svg#email"></use>
+                    </svg>info@zlkz.ru</a></li>
+              <li class="footer__list-item"><a class="footer__list-link" href="#">
+                    <svg class="footer__icon footer__icon--time">
+                      <use xlink:href="./img/sprites/sprite-mono.svg#time"></use>
+                    </svg>Пн-Пт: 9:00 - 18:00</a></li>
+            </ul>
+            <div class="footer__social"><a class="footer__social-link" href="#">
+                  <svg class="footer__svg footer__svg--yt">
+                    <use xlink:href="./img/sprites/sprite-mono.svg#yt"></use>
+                  </svg></a><a class="footer__social-link" href="#">
+                  <svg class="footer__svg footer__svg--inst">
+                    <use xlink:href="./img/sprites/sprite-mono.svg#inst"></use>
+                  </svg></a><a class="footer__social-link" href="#">
+                  <svg class="footer__svg footer__svg--wapp">
+                    <use xlink:href="./img/sprites/sprite-mono.svg#wapp"></use>
+                  </svg></a>
+            </div>
+          </div>
+          <div class="footer__copy">&copy; Загорский&nbsp;лакокрасочный. Все&nbsp;права&nbsp;защищены.&nbsp;2021</div><a class="back _goto" href="#wrapper"> 
+              <svg class="back__icon">
+                <use xlink:href="./img/sprites/sprite-mono.svg#back-arrow"></use>
+              </svg></a>
+        </div>
+      </footer>
+    </div>
+    <script src="js/vendors.min.js"> </script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

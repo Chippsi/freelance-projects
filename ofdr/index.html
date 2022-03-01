@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Все страницы</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			font-family: 'Ubuntu Condensed', sans-serif;
+			letter-spacing: 3px;
+			line-height: 28px;
+		}
+		h2 {
+			font-size: 30px;
+		}
+		.wrapper {
+			background-color: #f3f3f3;
+		}
+
+		.container {
+			width: 100%;
+			min-height: 100vh;
+			max-width: 1000px;
+			padding: 10px;
+			margin: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		
+
+		.link {
+			text-decoration: none;
+			color: #333333;
+			font-size: 18px;
+			font-weight: 700;
+			text-transform: uppercase;
+			-webkit-transition: color .2s ease;
+			-o-transition: color .2s ease;
+			transition: color .2s ease;
+			margin-left: 5px;
+			display: block;
+			margin: 4px;
+			text-align: center;
+			border-radius: 19px;
+			background: #f6f6f6;
+			padding: 22px;
+			transition: box-shadow .2s ease, font-size .2s ease, transform .2s ease;
+			box-shadow: 4px 4px 10px #ececec, -4px -4px 10px #ffffff;
+		}
+
+		.link:active {
+			-webkit-box-shadow: 0 0 0 #ececec, 0 0 0 #ffffff;
+			box-shadow: 0 0 0 #ececec, 0 0 0 #ffffff;
+			transform: scale(0.98);
+		}
+		.link:hover {
+
+		}
+		.list {
+			width: 100%;
+			max-width: 700px;
+			padding: 50px 15px 40px;
+			list-style: none;
+			/*border: 1px solid rgba(51, 51, 51, .2);*/
+			box-shadow: 0 3px 22px 4px  rgba(51, 51, 51, .1);
+			border-radius: 10px;
+			background: #f9f9f9;
+		}
+		.item {
+			padding: 5px 0;
+			margin: 25px 0;
+			border-radius: 19px;
+			-webkit-box-shadow: inset 0 0 0 #ececec, inset 0 0 0 #ffffff;
+			box-shadow: inset 0 0 0 #ececec, inset 0 0 0 #ffffff;
+			-webkit-transition: -webkit-box-shadow .2s;
+			transition: -webkit-box-shadow .2s;
+			-o-transition: box-shadow .2s;
+			transition: box-shadow .2s;
+			transition: box-shadow .2s, -webkit-box-shadow .2s;
+		}
+
+		.item:active {
+			-webkit-box-shadow: inset 4px 4px 10px #ececec, inset -4px -4px 10px #ffffff;
+			box-shadow: inset 4px 4px 10px #ececec, inset -4px -4px 10px #ffffff;
+		}
+		.title {
+			text-align: center;
+			font-size: 30px;
+			font-weight: 800;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<ul class="list">
+				<li class="title">Сверстанные страницы:</li>
+				<li class="item"><a target="_blank" href="./about.html" class="link">Главная</a></li>
+				<li class="item"><a target="_blank" href="./card.html" class="link">Карточка услуги(товара)</a></li>
+				<li class="item"><a target="_blank" href="./news.html" class="link">Новости</a></li>
+				<li class="item"><a target="_blank" href="./contacts.html" class="link">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+
+</html>

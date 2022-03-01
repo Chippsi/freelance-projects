@@ -1,0 +1,6 @@
+<svg width="250" height="266" viewBox="0 0 250 266" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<mask id="Mask4321">
+		<path d="M113.596 3.31197L9.78274 69.2374C3.68829 73.1076 0 79.8012 0 86.9915V179.008C0 186.199 3.68831 192.892 9.78275 196.763L113.596 262.688C120.55 267.104 129.45 267.104 136.404 262.688L240.217 196.763C246.312 192.892 250 186.199 250 179.008V86.9915C250 79.8013 246.312 73.1076 240.217 69.2374L136.404 3.31196C129.45 -1.10399 120.55 -1.10398 113.596 3.31197Z" fill="#fff" />
+	</mask>
+    <image preserveAspectRatio="xMidYMid slice" x="0" y="0" xlink:href="img/team/team1.jpg" height="100%" width="100%" mask="url(#Mask4321)" />
+</svg>

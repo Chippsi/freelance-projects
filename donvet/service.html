@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Хирургия</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__row header__row--top">
+          <div class="header__container _container">
+            <ul class="header__contacts">
+              <li class="header__contactsItem header__contactsItem--adres"><a class="header__contactsLink" href="#"> 
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#pin"></use>
+                    </svg>г. Ростов-на-Дону, ул. Мичуринская 121</a></li>
+              <li class="header__contactsItem header__contactsItem--time"><a class="header__contactsLink" href="#"> 
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#clock"></use>
+                    </svg>Работаем с 10.00 до 20.00, без перерывов и выходных</a></li>
+              <li class="header__contactsItem header__contactsItem--tel bold"><a class="header__contactsLink" href="tel:+7863246693">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                    </svg>+7 (863) 246 61 93</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__container _container">
+          <div class="header__row header__row--center"><a class="logoBox header__logoBox" href="#">
+                <picture>
+                  <source type="image/webp" srcset="./img/logo.webp"><img class="logoBox__img" src="./img/logo.png" alt="logo">
+                </picture>
+              <div class="logoBox__txtBox">
+                <h1 class="logoBox__title bold">ДОНСКОЙ<br>ВЕТЕРИНАРНЫЙ ГОСПИТАЛЬ</h1>
+                <div class="logoBox__subTitle">ВЕТЕРИНАРНАЯ КЛИНИКА | ОСНОВАНА&nbsp;В&nbsp;2006&nbsp;ГОДУ</div>
+              </div></a>
+            <div class="header__btnBox"><a class="header__signup btn bold _popup-link" href="#signup">Записаться на прием</a><a class="header__summon btn btn--active bold _popup-link" href="#summon">Вызов врача на дом</a></div>
+            <div class="header__iconMenu iconMenu" role="button" tabindex="0"><span></span></div>
+          </div>
+          <div class="header__row header__row--bottom">
+            <div class="menu header__menu">
+              <div class="menu__wrapper">
+                <div class="menu__body">
+                  <div class="iconMenu iconMenu--close _active" role="button" tabindex="0"><span></span></div>
+                  <nav class="menu__nav">
+                    <ul class="menu__list bold">
+                      <li class="menu__item menu__item--drop"><a class="menu__link menu__link--drop" href="#">Услуги</a>
+                        <div class="menu__dropBox">
+                          <div class="menu__dropBody">
+                            <ul class="menu__dropCol">
+                              <li class="menu__dropItem"><a href="#">Прием ветеринара</a></li>
+                              <li class="menu__dropItem"><a href="#">ИНЪЕКЦИИ</a></li>
+                              <li class="menu__dropItem"><a href="#">КЕСАРЕВО СЕЧЕНИЕ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Кесарево сечении кошки</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Кесарево сечении собаки</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">АМПУТАЦИЯ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Ампутация конечности</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Ампутация фаланг</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">ГРЫЖЕСЕЧЕНИЕ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пупочная</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Паховая</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Промежностная</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">АРТРОПЛАСТИКА</a></li>
+                              <li class="menu__dropItem"><a href="#">ЛАМИНЭКТОМИЯ</a></li>
+                              <li class="menu__dropItem"><a href="#">ЭВТАНАЗИЯ</a></li>
+                            </ul>
+                            <ul class="menu__dropCol">
+                              <li class="menu__dropItem"><a href="#">ОПЕРАТИВНОЕ ЛЕЧЕНИЕ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение заворота желудка</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение кишечной непроходимости</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение крипторхизма кобеля</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение крипторхизма кота</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение пневмоторакса</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">ОБРАБОТКА РАН И ШВОВ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Обработка ран</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Обработка швов</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наложение повязки бинтовой</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наложение повязки целакастовой</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наложение швов</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Снятие швов</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">ОСТЕОСИНТЕЗ</a></li>
+                              <li class="menu__dropItem"><a href="#">ПЛАСТИКА</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пластика век</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пластика роговицы глаза</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пластика ушей</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Уропластика</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">РЕПОЗИЦИЯ</a></li>
+                            </ul>
+                            <ul class="menu__dropCol">
+                              <li class="menu__dropItem"><a href="#">ДРУГИЕ УСЛУГИ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Бужирование трахеи</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Дегельминтизация</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Имплантация чипа</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Искусственное осеменение</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Лапароцентез</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Массаж простаты</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наклейка на когти кошки</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Переливание крови</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Промывание полости матки</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Родовспоможение</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Санация параанальных желе</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Санация ушных раковин</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Снятие клеща</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Спермограмма</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Степлирование</a><a class="dropSubLink" href="#">Стрижка</a></li>
+                                  <li class="menu__dropSubItem"> <a class="dropSubLink" href="#">Трепанация черепа</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Цистостомия</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Чистка зубов</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Электрофорез</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Дилатации трахеи</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">удаление</a></li>
+                              <li class="menu__dropItem"><a href="#">Стационарное лечение</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu__item"><a class="menu__link" href="#">о госпитале</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">ветаптека</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">зоомагазин</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">форум</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">полезно знать</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">контакты</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="serviceHero">
+          <div class="serviceHero__bg" style="background-image: url(&quot;img/services_page/hero/bg.jpg&quot;)"></div>
+          <div class="serviceHero__container _container">
+            <div class="serviceHero__content">
+              <h2 class="serviceHero__title">Хирургия</h2>
+              <p class="serviceHero__txt">Плановые, срочные и экстренные операции животным любой сложности</p>
+            </div>
+          </div>
+        </section>
+        <section class="serviceAbout">
+          <div class="serviceAbout__container _container">
+            <ul class="breadcrumbs">
+              <li class="breadcrumbs__item"> <a class="breadcrumbs__link" href="#">Главная </a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Услуги </a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link breadcrumbs__link--active bold" href="#">Хирургия </a></li>
+            </ul>
+            <div class="serviceAbout__content">
+              <h3 class="serviceAbout__title title2">
+                Когда животному нужна
+                 <span class="bold">хирургическая операция?</span>
+              </h3>
+              <div class="serviceAbout__txtBox txt">
+                <p class="serviceAbout__txt">Когда медикаментозные средства не справляются, анализы и обследования не дали точного результата или питомец находится в критическом состоянии, ему может помочь операция.</p>
+                <p class="serviceAbout__txt">Хирурги Донского ветеринарного госпиталя всегда готовы спасать жизнь и улучшать ее качество, проводя плановые, срочные и экстренные операции любой сложности. Если есть хоть один шанс, мы никогда не сдаемся! Наши врачи бережно относятся к физическому и психическому здоровью животных, используют новейшие технологии и оборудование, и стараются свести к минимуму стресс и болезненные последствия оперативных вмешательств.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="servicePrice">
+          <div class="servicePrice__container _container">
+            <div class="servicePrice__content">
+              <h3 class="servicePrice__title title2">
+                Стоимость
+                <span class="bold">услуг:</span>
+              </h3>
+              <div class="servicePrice__body _spollers">
+                <div class="servicePrice__spollerBox">
+                  <h3 class="servicePrice__spollerTitle _spoller">Прием хирурга</h3>
+                  <div class="servicePrice__spollerContent">
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">АМПУТАЦИЯ КОНЕЧНОСТИ</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">1437</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">ампутация фаланг</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">у кошек (все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек (пенсион, все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (пенс, вся стоимость)<span class="servicePrice__count rub">2732</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (пенс, вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="servicePrice__spollerBox">
+                  <h3 class="servicePrice__spollerTitle _spoller">Кесарево сечение</h3>
+                  <div class="servicePrice__spollerContent">
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">АМПУТАЦИЯ КОНЕЧНОСТИ</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">1437</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">ампутация фаланг</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">у кошек (все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек (пенсион, все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (пенс, вся стоимость)<span class="servicePrice__count rub">2732</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (пенс, вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="servicePrice__spollerBox">
+                  <h3 class="servicePrice__spollerTitle _spoller">Кастрация / стерилизация</h3>
+                  <div class="servicePrice__spollerContent">
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">АМПУТАЦИЯ КОНЕЧНОСТИ</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">1437</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">ампутация фаланг</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">у кошек (все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек (пенсион, все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (пенс, вся стоимость)<span class="servicePrice__count rub">2732</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (пенс, вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="servicePrice__spollerBox">
+                  <h3 class="servicePrice__spollerTitle _spoller">Ампутация</h3>
+                  <div class="servicePrice__spollerContent">
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">АМПУТАЦИЯ КОНЕЧНОСТИ</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">1437</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">ампутация фаланг</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">у кошек (все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек (пенсион, все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (пенс, вся стоимость)<span class="servicePrice__count rub">2732</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (пенс, вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="servicePrice__spollerBox">
+                  <h3 class="servicePrice__spollerTitle _spoller">Органы и структуры брюшной/ тазовой полости и органов мочевыделительной/ половой системы</h3>
+                  <div class="servicePrice__spollerContent">
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">АМПУТАЦИЯ КОНЕЧНОСТИ</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">1437</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">ампутация фаланг</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">у кошек (все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек (пенсион, все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (пенс, вся стоимость)<span class="servicePrice__count rub">2732</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (пенс, вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="servicePrice__spollerBox">
+                  <h3 class="servicePrice__spollerTitle _spoller">Онкологические операции</h3>
+                  <div class="servicePrice__spollerContent">
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">АМПУТАЦИЯ КОНЕЧНОСТИ</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">1437</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">ампутация фаланг</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">у кошек (все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек (пенсион, все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (пенс, вся стоимость)<span class="servicePrice__count rub">2732</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (пенс, вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="servicePrice__spollerBox">
+                  <h3 class="servicePrice__spollerTitle _spoller">Эндоскопия</h3>
+                  <div class="servicePrice__spollerContent">
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">АМПУТАЦИЯ КОНЕЧНОСТИ</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">1437</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">1-й категории<span class="servicePrice__count rub">2541</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="servicePrice__itemWrp">
+                      <div class="servicePrice__itemBox">
+                        <h4 class="servicePrice__itemTitle">ампутация фаланг</h4>
+                        <ul class="servicePrice__itemList">
+                          <li class="servicePrice__listItem">у кошек (все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек (пенсион, все включено)<span class="servicePrice__count rub">2541</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + стерилизация (пенс, вся стоимость)<span class="servicePrice__count rub">2732</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                          <li class="servicePrice__listItem">у кошек + кастрация (пенс, вся стоимость)<span class="servicePrice__count rub">5441</span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="servicePrice__listInfo">
+                <div class="servicePrice__itemInfo">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                    </svg>В цену входит повторный осмотр хирурга и анестезиолога в день операции, предоперационная подготовка, основные расходные материалы, работа хирургической бригады, час анестезии, нахождение в предоперационном стационаре 24 часа.
+                </div>
+                <div class="servicePrice__itemInfo"> 
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                    </svg>В стоимость операции с пометкой* дополнительно входит взятие биопсии, цитологическое и гистологическое исследование материала.
+                </div>
+                <div class="servicePrice__itemInfo">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                    </svg>В случае проведения операции протяженностью более одного часа, стоимость операции будет увеличена на стоимость затрат на анестезию.
+                </div>
+                <div class="servicePrice__itemInfo">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                    </svg>При проведении нескольких операций одному животному окончательная стоимость пересчитывается.
+                </div>
+                <div class="servicePrice__itemInfo">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                    </svg>Если необходимая операция не указана в прайс-листе, стоимость обсуждается с врачом хирургического <br> отделения.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="serviceCta">
+          <div class="serviceCta__container _container">
+            <div class="serviceCta__content">
+              <div class="formBox serviceCta__formBox">
+                <h2 class="formBox__title title"><span class="bold">Записаться</span>
+                  
+                  на прием
+                </h2>
+                <div class="formBox__subTitle">Укажите Ваши данные и наш менеджер с Вами свяжется</div>
+                <form class="formBox__form" action="#" method="POST">
+                  <div class="formBox__inpRow">
+                    <input class="formBox__inp input" autocomplete="off" type="text" name="form[]" data-value="Ваше имя">
+                  </div>
+                  <div class="formBox__inpRow">
+                    <input class="formBox__inp input" autocomplete="off" type="tel" name="form[]" data-value="Ваш телефон">
+                  </div>
+                  <div class="formBox__inpRow formBox__inpRow--area">
+                    <textarea class="formBox__tarea" id="comments" name="comments" data-value="Ваш комментарий"></textarea>
+                  </div>
+                  <button class="formBox__btn btn btn--active bold" type="submit">Записаться</button>
+                </form>
+                <div class="formBox__policy">Нажимая кнопку «Записаться» я принимаю условия политики конфиденциальности.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer footer--all">
+        <div class="footer__row footer__row--top">
+          <div class="footer__container _container"><a class="logoBox footer__logoBox" href="#">
+                <picture>
+                  <source type="image/webp" srcset="./img/logo.webp"><img class="logoBox__img" src="./img/logo.png" alt="logo">
+                </picture>
+              <div class="logoBox__txtBox">
+                <div class="logoBox__title">ДОНСКОЙ<br>ВЕТЕРИНАРНЫЙ ГОСПИТАЛЬ</div>
+                <div class="logoBox__subTitle">ВЕТЕРИНАРНАЯ КЛИНИКА | ОСНОВАНА&nbsp;В&nbsp;2006&nbsp;ГОДУ</div>
+              </div></a>
+            <ul class="footer__menu">
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">Услуги</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">зоомагазин</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">форум</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">о госпитале</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">ветаптека</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">полезно знать</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__row footer__row--center">
+          <div class="footer__container _container">   
+            <div class="footer__col footer__col--first">
+              <form class="footer__searchForm" action="#" method="post" data-ajax="true">
+                <input class="footer__searchInput input" autocomplete="off" type="text" name="search" data-value="Поиск по сайту">
+                <button class="footer__searchInputBtn" type="button">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#loupe"></use>
+                    </svg>
+                </button>
+              </form>
+              <div class="footer__social"> <span>Социальные сети:</span>
+                <ul class="footer__socialList">
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--vko" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#vko"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--instagram" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#instagram"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--telegram" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#telegram"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--whatsapp" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#whatsapp"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--facebook" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#facebook"></use>
+                        </svg></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col footer__col--center">
+              <ul class="footer__phoneList">
+                <li class="footer__phoneItem bold"><a href="tel:+78632466193">+7 (863) 246 61 93
+                      <svg>
+                        <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                      </svg></a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__col--last">
+              <div class="footer__btnBox"><a class="footer__summon btn btn--active _popup-link" href="#summon">Вызов врача на дом</a><a class="footer__signup btn _popup-link" href="#signup">Записаться на прием</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__row footer__row--bottom">
+          <div class="footer__container _container"><a class="footer__policy" href="#">Политика обработки персональных данных</a>
+            <div class="footer__copy">&copy; 2021 Донской ветеринарный госпиталь</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup popup_signup">
+      <div class="popup__content">
+        <div class="popup__body">
+          <div class="popup__close"></div>
+          <div class="formBox">
+            <h2 class="formBox__title title bold">Вызов врача на дом</h2>
+            <div class="formBox__subTitle">Укажите Ваши данные и наш менеджер с Вами свяжется</div>
+            <form class="formBox__form" action="#" method="POST">
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="text" name="form[]" data-value="Ваше имя">
+              </div>
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="tel" name="form[]" data-value="Ваш телефон">
+              </div>
+              <div class="formBox__inpRow formBox__inpRow--area">
+                <textarea class="formBox__tarea" id="commentsA" name="comments" data-value="Ваш комментарий"></textarea>
+              </div>
+              <button class="formBox__btn btn btn--active bold" type="submit">Отправить</button>
+            </form>
+            <div class="formBox__policy">Нажимая кнопку «Отправить» я принимаю условия политики конфиденциальности.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup popup_summon">
+      <div class="popup__content">
+        <div class="popup__body">
+          <div class="popup__close"></div>
+          <div class="formBox">
+            <h2 class="formBox__title title"><span class="bold">Записаться</span>
+              
+              на прием
+            </h2>
+            <div class="formBox__subTitle">Укажите Ваши данные и наш менеджер с Вами свяжется</div>
+            <form class="formBox__form" action="#" method="POST">
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="text" name="form[]" data-value="Ваше имя">
+              </div>
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="tel" name="form[]" data-value="Ваш телефон">
+              </div>
+              <div class="formBox__inpRow formBox__inpRow--area">
+                <textarea class="formBox__tarea" id="commentsB" name="comments" data-value="Ваш комментарий"></textarea>
+              </div>
+              <button class="formBox__btn btn btn--active bold" type="submit">Записаться</button>
+            </form>
+            <div class="formBox__policy">Нажимая кнопку «Записаться» я принимаю условия политики конфиденциальности.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/vendors.min.js"> </script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

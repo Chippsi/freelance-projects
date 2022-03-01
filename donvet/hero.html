@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Главная</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__row header__row--top">
+          <div class="header__container _container">
+            <ul class="header__contacts">
+              <li class="header__contactsItem header__contactsItem--adres"><a class="header__contactsLink" href="#"> 
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#pin"></use>
+                    </svg>г. Ростов-на-Дону, ул. Мичуринская 121</a></li>
+              <li class="header__contactsItem header__contactsItem--time"><a class="header__contactsLink" href="#"> 
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#clock"></use>
+                    </svg>Работаем с 10.00 до 20.00, без перерывов и выходных</a></li>
+              <li class="header__contactsItem header__contactsItem--tel bold"><a class="header__contactsLink" href="tel:+7863246693">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                    </svg>+7 (863) 246 61 93</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__container _container">
+          <div class="header__row header__row--center"><a class="logoBox header__logoBox" href="#">
+                <picture>
+                  <source type="image/webp" srcset="./img/logo.webp"><img class="logoBox__img" src="./img/logo.png" alt="logo">
+                </picture>
+              <div class="logoBox__txtBox">
+                <h1 class="logoBox__title bold">ДОНСКОЙ<br>ВЕТЕРИНАРНЫЙ ГОСПИТАЛЬ</h1>
+                <div class="logoBox__subTitle">ВЕТЕРИНАРНАЯ КЛИНИКА | ОСНОВАНА&nbsp;В&nbsp;2006&nbsp;ГОДУ</div>
+              </div></a>
+            <div class="header__btnBox"><a class="header__signup btn bold _popup-link" href="#signup">Записаться на прием</a><a class="header__summon btn btn--active bold _popup-link" href="#summon">Вызов врача на дом</a></div>
+            <div class="header__iconMenu iconMenu" role="button" tabindex="0"><span></span></div>
+          </div>
+          <div class="header__row header__row--bottom">
+            <div class="menu header__menu">
+              <div class="menu__wrapper">
+                <div class="menu__body">
+                  <div class="iconMenu iconMenu--close _active" role="button" tabindex="0"><span></span></div>
+                  <nav class="menu__nav">
+                    <ul class="menu__list bold">
+                      <li class="menu__item menu__item--drop"><a class="menu__link menu__link--drop" href="#">Услуги</a>
+                        <div class="menu__dropBox">
+                          <div class="menu__dropBody">
+                            <ul class="menu__dropCol">
+                              <li class="menu__dropItem"><a href="#">Прием ветеринара</a></li>
+                              <li class="menu__dropItem"><a href="#">ИНЪЕКЦИИ</a></li>
+                              <li class="menu__dropItem"><a href="#">КЕСАРЕВО СЕЧЕНИЕ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Кесарево сечении кошки</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Кесарево сечении собаки</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">АМПУТАЦИЯ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Ампутация конечности</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Ампутация фаланг</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">ГРЫЖЕСЕЧЕНИЕ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пупочная</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Паховая</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Промежностная</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">АРТРОПЛАСТИКА</a></li>
+                              <li class="menu__dropItem"><a href="#">ЛАМИНЭКТОМИЯ</a></li>
+                              <li class="menu__dropItem"><a href="#">ЭВТАНАЗИЯ</a></li>
+                            </ul>
+                            <ul class="menu__dropCol">
+                              <li class="menu__dropItem"><a href="#">ОПЕРАТИВНОЕ ЛЕЧЕНИЕ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение заворота желудка</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение кишечной непроходимости</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение крипторхизма кобеля</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение крипторхизма кота</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Оперативное лечение пневмоторакса</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">ОБРАБОТКА РАН И ШВОВ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Обработка ран</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Обработка швов</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наложение повязки бинтовой</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наложение повязки целакастовой</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наложение швов</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Снятие швов</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">ОСТЕОСИНТЕЗ</a></li>
+                              <li class="menu__dropItem"><a href="#">ПЛАСТИКА</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пластика век</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пластика роговицы глаза</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Пластика ушей</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Уропластика</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">РЕПОЗИЦИЯ</a></li>
+                            </ul>
+                            <ul class="menu__dropCol">
+                              <li class="menu__dropItem"><a href="#">ДРУГИЕ УСЛУГИ</a>
+                                <ul class="menu__dropSubList">
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Бужирование трахеи</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Дегельминтизация</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Имплантация чипа</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Искусственное осеменение</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Лапароцентез</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Массаж простаты</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Наклейка на когти кошки</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Переливание крови</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Промывание полости матки</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Родовспоможение</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Санация параанальных желе</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Санация ушных раковин</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Снятие клеща</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Спермограмма</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Степлирование</a><a class="dropSubLink" href="#">Стрижка</a></li>
+                                  <li class="menu__dropSubItem"> <a class="dropSubLink" href="#">Трепанация черепа</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Цистостомия</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Чистка зубов</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Электрофорез</a></li>
+                                  <li class="menu__dropSubItem"><a class="dropSubLink" href="#">Дилатации трахеи</a></li>
+                                </ul>
+                              </li>
+                              <li class="menu__dropItem"><a href="#">удаление</a></li>
+                              <li class="menu__dropItem"><a href="#">Стационарное лечение</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu__item"><a class="menu__link" href="#">о госпитале</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">ветаптека</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">зоомагазин</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">форум</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#">полезно знать</a></li>
+                      <li class="menu__item"><a class="menu__link _goto" href="#map">контакты</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="hero" style="background-image: url(&quot;img/hero/bg.jpg&quot;)">
+          <div class="hero__container _container">
+            <div class="hero__content">
+              <div class="hero__itemWrp"><a class="hero__itemBox" href="#">ветклиника</a></div>
+              <div class="hero__itemWrp"><a class="hero__itemBox" href="#">ветаптека</a></div>
+              <div class="hero__itemWrp"><a class="hero__itemBox" href="#">зоомагазин</a></div>
+            </div>
+          </div>
+        </section>
+        <section class="benefits">
+          <div class="benefits__container _container">
+            <div class="benefits__content">
+              <h2 class="benefits__title title">
+                Наши <span class="bold">преимущества</span></h2>
+              <div class="benefits__body">
+                <div class="benefits__itemWrp">
+                  <div class="benefits__itemBox">
+                    <div class="benefits__imgBox benefits__imgBox--0"></div>
+                    <p class="benefits__txt bold">Профессиональные врачи</p>
+                  </div>
+                </div>
+                <div class="benefits__itemWrp">
+                  <div class="benefits__itemBox">
+                    <div class="benefits__imgBox benefits__imgBox--1"></div>
+                    <p class="benefits__txt bold">Современное оборудование</p>
+                  </div>
+                </div>
+                <div class="benefits__itemWrp">
+                  <div class="benefits__itemBox">
+                    <div class="benefits__imgBox benefits__imgBox--2"></div>
+                    <p class="benefits__txt bold">Большой спектр услуг</p>
+                  </div>
+                </div>
+                <div class="benefits__itemWrp">
+                  <div class="benefits__itemBox">
+                    <div class="benefits__imgBox benefits__imgBox--3"></div>
+                    <p class="benefits__txt bold">Низкие цены</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="promotions">
+          <div class="promotions__container _container">
+            <div class="promotions__content">
+                <div class="wrp-promoSlider">
+                  <div class="swiper-container promoSlider _swiper">
+                    <div class="swiper-wrapper promoSlider__wrapper">
+                      <div class="swiper-slide promoSlider__slide">
+                        <div class="promoSlider__itemBox">
+                          <div class="promoSlider__imgBox">
+                              <picture>
+                                <source type="image/webp" srcset="./img/promotions/dog.webp"><img class="promoSlider__img" src="./img/promotions/dog.jpg" alt="dog">
+                              </picture>
+                          </div>
+                          <div class="promoSlider__body">
+                            <div class="promoSlider__offerPreview">Впервые на юге России!</div>
+                            <h3 class="promoSlider__title bold">Иглотерапия у собак</h3>
+                            <p class="promoSlider__txt bold">Усовершенствованные методики иглоукалывания, объеденившие в себе основы китайской меридиальной, индийской чакральной, древнеегипетской алмазной энергетических систем.</p>
+                            <ul class="promoSlider__list">
+                              <li class="promoSlider__item">устраняет причины заболеваний обладает мощным обезболивающим эффектом;
+                                  <svg>
+                                    <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                                  </svg>
+                              </li>
+                              <li class="promoSlider__item">восстанавливает структуру органов и тканей, нормализует их функцию
+                                  <svg>
+                                    <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                                  </svg>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide promoSlider__slide">
+                        <div class="promoSlider__itemBox">
+                          <div class="promoSlider__imgBox">
+                              <picture>
+                                <source type="image/webp" srcset="./img/promotions/dog.webp"><img class="promoSlider__img" src="./img/promotions/dog.jpg" alt="dog">
+                              </picture>
+                          </div>
+                          <div class="promoSlider__body">
+                            <div class="promoSlider__offerPreview">Впервые на юге России!</div>
+                            <h3 class="promoSlider__title bold">Иглотерапия у собак</h3>
+                            <p class="promoSlider__txt bold">Усовершенствованные методики иглоукалывания, объеденившие в себе основы китайской меридиальной, индийской чакральной, древнеегипетской алмазной энергетических систем.</p>
+                            <ul class="promoSlider__list">
+                              <li class="promoSlider__item">устраняет причины заболеваний обладает мощным обезболивающим эффектом;
+                                  <svg>
+                                    <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                                  </svg>
+                              </li>
+                              <li class="promoSlider__item">восстанавливает структуру органов и тканей, нормализует их функцию
+                                  <svg>
+                                    <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                                  </svg>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide promoSlider__slide">
+                        <div class="promoSlider__itemBox">
+                          <div class="promoSlider__imgBox">
+                              <picture>
+                                <source type="image/webp" srcset="./img/promotions/dog.webp"><img class="promoSlider__img" src="./img/promotions/dog.jpg" alt="dog">
+                              </picture>
+                          </div>
+                          <div class="promoSlider__body">
+                            <div class="promoSlider__offerPreview">Впервые на юге России!</div>
+                            <h3 class="promoSlider__title bold">Иглотерапия у собак</h3>
+                            <p class="promoSlider__txt bold">Усовершенствованные методики иглоукалывания, объеденившие в себе основы китайской меридиальной, индийской чакральной, древнеегипетской алмазной энергетических систем.</p>
+                            <ul class="promoSlider__list">
+                              <li class="promoSlider__item">устраняет причины заболеваний обладает мощным обезболивающим эффектом;
+                                  <svg>
+                                    <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                                  </svg>
+                              </li>
+                              <li class="promoSlider__item">восстанавливает структуру органов и тканей, нормализует их функцию
+                                  <svg>
+                                    <use xlink:href="./img/sprites/sprite-mono.svg#paw"></use>
+                                  </svg>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="promoSlider__pagination"></div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="services__container _container">
+            <div class="services__content">
+              <h2 class="services__title title">
+                Наши
+                <span class="bold">услуги</span>
+              </h2>
+              <p class="services__subtitle txt">Наши специалисты способны делать сложнейшие операции животным. Не все ветклиники могут похвастаться этим.</p>
+              <div class="services__body">
+                <div class="services__itemWrp">
+                  <div class="services__itemBox">
+                    <div class="services__itemTitle bold">Хирургические</div>
+                    <div class="services__itemTxt txt">
+                      <p>Хирургическая ветеринарная помощь включает в себя проведение таких операций как: операции на суставах, лечение переломов костей, пункции полостей, принятие родов у животных, кастрация либо стерилизация, операции на мочевом пузыре и многие другие операции, требующие хирургического вмешательства</p>
+                    </div><a class="services__itemBtn btn btn--active" href="#">Подробнее</a>
+                  </div>
+                </div>
+                <div class="services__itemWrp">
+                  <div class="services__itemBox">
+                    <div class="services__itemTitle bold">Гинекологические</div>
+                    <div class="services__itemTxt txt">
+                      <p>Ветеринарная гинекология – клиническая дисциплина, занимающаяся лечением заболеваний половых органов самок, ведением беременности и родов. Если у вашей любимицы обнаружились затянувшаяся течка, сложности при родах, уплотнения и набухания молочных желез, беспокойство или гнойные выделения, необходимо немедленно отвезти животное к врачу.</p>
+                    </div><a class="services__itemBtn btn btn--active" href="#">Подробнее</a>
+                  </div>
+                </div>
+                <div class="services__itemWrp">
+                  <div class="services__itemBox">
+                    <div class="services__itemTitle bold">Терапевтические</div>
+                    <div class="services__itemTxt txt">
+                      <p>Суть терапии сводится к консервативному лечению, основанному на приеме медикаментов и наружном применении кремов, мазей и эмульсий. Питомцу могут назначаться подкожные, внутривенные и внутримышечные инъекции, повышающие эффективность назначенного лечения.</p>
+                      <p>Основа терапевтических услуг – полное обследование животного и постановка грамотного диагноза</p>
+                    </div><a class="services__itemBtn btn btn--active" href="#">Подробнее</a>
+                  </div>
+                </div>
+                <div class="services__itemWrp">
+                  <div class="services__itemBox">
+                    <div class="services__itemTitle bold">Косметические</div>
+                    <div class="services__itemTxt txt">
+                      <p>Комплекс уходовых процедур для собак, кошек и экзотических животных. Направлен на поддержание эстетического внешнего вида животного и создание комфотных условий для жизни. Спектр услуг включает уход за шерстю, купание, чистку ушей, глаз и зубов, подстригание когтей.</p>
+                    </div><a class="services__itemBtn btn btn--active" href="#">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="reviews__container _container">
+            <div class="reviews__content">
+              <h2 class="reviews__title title"><span class="bold">Реальные отзывы</span> наших посетителей</h2>
+              <div class="reviews__body">
+                <div class="reviews__itemWrp">
+                  <div class="review reviews__itemBox">
+                    <div class="review__head"><span class="review__headName bold">Елена</span>
+                      <div class="review__rating"><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span></div>
+                    </div>
+                    <div class="review__body">
+                      <p class="review__bodyTxt">Хочу принести огромную благодарность коллективу врачей и лично Виталию Ивановичу за их профессионализм , доброту и неравнодушие к своей работе и нашим питомцам. Наш мейн-кун был прооперирован после перелома обеих задних лап/неудачный прыжок с комода/ удаление шейки бедра.</p>
+                    </div><a class="review__link" href="#">Читать далее
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#arrow"></use>
+                        </svg></a>
+                  </div>
+                </div>
+                <div class="reviews__itemWrp">
+                  <div class="review reviews__itemBox">
+                    <div class="review__head"><span class="review__headName bold">Алексей</span>
+                      <div class="review__rating"><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span></div>
+                    </div>
+                    <div class="review__body">
+                      <p class="review__bodyTxt">Работают замечательные доктора, к каждому животному особый подход, у нас 3 собаки знаю о чем говорю. У таксы отказали задании лапы, в 4 клиниках сказали что так и останется, или усыпить. Здесь Виталий Иванович поставил собаку на ноги, уже четвёртый год, полет нормальный!))</p>
+                    </div><a class="review__link" href="#">Читать далее
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#arrow"></use>
+                        </svg></a>
+                  </div>
+                </div>
+                <div class="reviews__itemWrp">
+                  <div class="review reviews__itemBox">
+                    <div class="review__head"><span class="review__headName bold">Наталья Михайловна</span>
+                      <div class="review__rating"><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span><span class="review__ratingStar">
+                            <svg>
+                              <use xlink:href="./img/sprites/sprite-mono.svg#star"></use>
+                            </svg></span></div>
+                    </div>
+                    <div class="review__body">
+                      <p class="review__bodyTxt">Стерилизовали там кошек,нормально,а что касается тяжёлых случаев,это лучше не к ним<br> 29.03.21 привезла порватую собакой кошку,предварительно звонила предупредить чтоб сразу взяли,сказали сложный случай,ещё и очередь пришлось ждать,теперь со сложными</p>
+                    </div><a class="review__link" href="#">Читать далее
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#arrow"></use>
+                        </svg></a>
+                  </div>
+                </div>
+              </div><a class="reviews__btn btn bold" href="#">Еще отзывы</a>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__container _container">
+            <div class="about__content">
+              <h1 class="about__title title bold">О клинике</h1>
+              <div class="about__body">
+                <div class="about__txtBox">
+                  <p class="about__txt">«Донской ветеринарный госпиталь» основан в 2006 году и уже более 15&#8209;ти лет оказывает качественную ветеринарную помощь.</p>
+                  <p class="about__txt">С 10-00 до 20-00, без перерывов и выходных специалисты нашей ветеринарной клиники готовы оказать экстренную помощь, провести любые виды диагностики или просто помочь профессиональным советом. Профессиональный совет так же можно получить на форуме. Обратившись в ветеринарную клинику «Донской ветеринарный госпиталь» вы можете быть уверенны, что доверяете здоровье своего питомца профессионалам в области ветеринарии.</p>
+                  <p class="about__txt">Для вашего удобства в клинике работает зоомагазин и зооаптека с широким ассортиментом ветеринарных препаратов. Биохимический анализ крови, общий клинический анализ крови и исследование мочи в нашей клинике проводятся на автоматических анализаторах , что позволяет в течение нескольких минут (биохимия - 6 минут, общий анализ крови - 2 минуты, моча - 1 минута) получить достоверный результат без влияния человеческого фактора.</p>
+                  <p class="about__txt">Стоимость операции собаке, вакцинацию кошки, лечение заболеваний птиц, консультация по вопросу болезней черепах и цены на прочие усуги можно узнать ЗДЕСЬ.</p>
+                  <p class="about__txt">Предусмотрен прием в порядке общей очереди и по предварительной записи. На плановое оперативное лечение, кастрации и стерилизации, консультации и осмотр можно записаться на удобное для Вас время по телефону: (863) 246-61-93.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="contacts__map map" id="map"></div>
+          <div class="contacts__container _container">
+            <div class="contacts__itemBox">
+              <h2 class="contacts__itemTitle bold">ДОНСКОЙ ВЕТЕРИНАРНЫЙ ГОСПИТАЛЬ</h2>
+              <ul class="contacts__contactsList">
+                <li class="contacts__contactsItem"><span class="contacts__contactsItemTitle bold">Адрес:</span>Россия, Ростов-на-Дону, Мичуринская улица, 121</li>
+                <li class="contacts__contactsItem"><span class="contacts__contactsItemTitle bold">ЧАСЫ РАБОТЫ</span>с 10.00 до 20.00, без перерывов и<br> выходных</li>
+                <li class="contacts__contactsItem"><span class="contacts__contactsItemTitle bold">Контактные номера телефонов:</span><a class="contacts__phoneLink" href="tel:+78632466193">+7 (863) 246-61-93,</a>
+                  <a class="contacts__phoneLink" href="tel:+79185972890">+7 (918) 597-28-90 </a>
+                </li>
+                <li class="contacts__contactsItem contacts__contactsItem--email"><span class="contacts__contactsItemTitle bold">E-mail:</span>
+                  <a class="contacts__mailLink" href="mailto:don-vet-2006@yandex.ru">don-vet-2006@yandex.ru</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__row footer__row--top">
+          <div class="footer__container _container"><a class="logoBox footer__logoBox" href="#">
+                <picture>
+                  <source type="image/webp" srcset="./img/logo.webp"><img class="logoBox__img" src="./img/logo.png" alt="logo">
+                </picture>
+              <div class="logoBox__txtBox">
+                <div class="logoBox__title">ДОНСКОЙ<br>ВЕТЕРИНАРНЫЙ ГОСПИТАЛЬ</div>
+                <div class="logoBox__subTitle">ВЕТЕРИНАРНАЯ КЛИНИКА | ОСНОВАНА&nbsp;В&nbsp;2006&nbsp;ГОДУ</div>
+              </div></a>
+            <ul class="footer__menu">
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">Услуги</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">зоомагазин</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">форум</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">о госпитале</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">ветаптека</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">полезно знать</a></li>
+              <li class="footer__menuItem bold"><a class="footer__menuLink" href="#">контакты</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__row footer__row--center">
+          <div class="footer__container _container">   
+            <div class="footer__col footer__col--first">
+              <form class="footer__searchForm" action="#" method="post" data-ajax="true">
+                <input class="footer__searchInput input" autocomplete="off" type="text" name="search" data-value="Поиск по сайту">
+                <button class="footer__searchInputBtn" type="button">
+                    <svg>
+                      <use xlink:href="./img/sprites/sprite-mono.svg#loupe"></use>
+                    </svg>
+                </button>
+              </form>
+              <div class="footer__social"> <span>Социальные сети:</span>
+                <ul class="footer__socialList">
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--vko" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#vko"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--instagram" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#instagram"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--telegram" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#telegram"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--whatsapp" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#whatsapp"></use>
+                        </svg></a></li>
+                  <li class="footer__socialItem"><a class="footer__socialLink footer__socialLink--facebook" href="#">
+                        <svg>
+                          <use xlink:href="./img/sprites/sprite-mono.svg#facebook"></use>
+                        </svg></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__col footer__col--center">
+              <ul class="footer__phoneList">
+                <li class="footer__phoneItem bold"><a href="tel:+78632466193">+7 (863) 246 61 93
+                      <svg>
+                        <use xlink:href="./img/sprites/sprite-mono.svg#tel"></use>
+                      </svg></a></li>
+              </ul>
+            </div>
+            <div class="footer__col footer__col--last">
+              <div class="footer__btnBox"><a class="footer__summon btn btn--active _popup-link" href="#summon">Вызов врача на дом</a><a class="footer__signup btn _popup-link" href="#signup">Записаться на прием</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__row footer__row--bottom">
+          <div class="footer__container _container"><a class="footer__policy" href="#">Политика обработки персональных данных</a>
+            <div class="footer__copy">&copy; 2021 Донской ветеринарный госпиталь</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="popup popup_signup">
+      <div class="popup__content">
+        <div class="popup__body">
+          <div class="popup__close"></div>
+          <div class="formBox">
+            <h2 class="formBox__title title bold">Вызов врача на дом</h2>
+            <div class="formBox__subTitle">Укажите Ваши данные и наш менеджер с Вами свяжется</div>
+            <form class="formBox__form" action="#" method="POST">
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="text" name="form[]" data-value="Ваше имя">
+              </div>
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="tel" name="form[]" data-value="Ваш телефон">
+              </div>
+              <div class="formBox__inpRow formBox__inpRow--area">
+                <textarea class="formBox__tarea" id="commentsA" name="comments" data-value="Ваш комментарий"></textarea>
+              </div>
+              <button class="formBox__btn btn btn--active bold" type="submit">Отправить</button>
+            </form>
+            <div class="formBox__policy">Нажимая кнопку «Отправить» я принимаю условия политики конфиденциальности.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup popup_summon">
+      <div class="popup__content">
+        <div class="popup__body">
+          <div class="popup__close"></div>
+          <div class="formBox">
+            <h2 class="formBox__title title"><span class="bold">Записаться</span>
+              
+              на прием
+            </h2>
+            <div class="formBox__subTitle">Укажите Ваши данные и наш менеджер с Вами свяжется</div>
+            <form class="formBox__form" action="#" method="POST">
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="text" name="form[]" data-value="Ваше имя">
+              </div>
+              <div class="formBox__inpRow">
+                <input class="formBox__inp input" autocomplete="off" type="tel" name="form[]" data-value="Ваш телефон">
+              </div>
+              <div class="formBox__inpRow formBox__inpRow--area">
+                <textarea class="formBox__tarea" id="commentsB" name="comments" data-value="Ваш комментарий"></textarea>
+              </div>
+              <button class="formBox__btn btn btn--active bold" type="submit">Записаться</button>
+            </form>
+            <div class="formBox__policy">Нажимая кнопку «Записаться» я принимаю условия политики конфиденциальности.</div>
+          </div>
+        </div>
+      </div>
+    </div><script data-map = "https://api-maps.yandex.ru/2.1/?apikey=bb15d09e-7256-4ffb-b78f-d85a036e31a8&lang=ru_RU&onload=onloadMap" type="text/javascript"></script>
+    <script src="js/vendors.min.js"> </script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

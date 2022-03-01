@@ -1,0 +1,6 @@
+<svg width="99" height="105" viewBox="0 0 99 105" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<mask id="Mask3">
+			<path d="M48.0366 15.4272L16.2478 35.729C15.4702 36.2255 15 37.0822 15 38.0022V66.9978C15 67.9178 15.4702 68.7744 16.2478 69.271L48.0366 89.5728C48.9284 90.1424 50.0716 90.1424 50.9634 89.5728L82.7523 69.271C83.5298 68.7744 84 67.9178 84 66.9978V38.0022C84 37.0822 83.5298 36.2255 82.7523 35.729L50.9634 15.4272C50.0716 14.8576 48.9284 14.8576 48.0366 15.4272Z" fill="#FFF" />
+		</mask>
+        <image preserveAspectRatio="xMidYMid slice" x="15%" y="15%" xlink:href="img/reviews/slider1.jpg" height="75%" width="75%" mask="url(#Mask3)" />
+</svg>
